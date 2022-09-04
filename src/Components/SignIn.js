@@ -15,11 +15,15 @@ function SignIn() {
     }
 
   return (
-    <div>
+    <div style={{ display: 'flex',
+                  justifyContent: 'center',
+                  height: '100vh',
+                    alignItems: 'center'}}>
+
         <Button variant="contained" onClick={signInWithGoogle} style={{
         backgroundColor: "#000",
         color : '#fff',
-        borderRadius: 7
+        borderRadius: 7,padding: '30px', fontSize: '20px', fontWeight: '600'
         }}>Sign in With Google</Button>
     </div>
   )

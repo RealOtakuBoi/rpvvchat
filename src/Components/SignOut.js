@@ -4,7 +4,7 @@ import { auth } from '../Firebase';
 
 function SignOut() {
   return (
-    <div>
+    <div style={{margin: 10}}>
         <Button variant="contained" onClick={() => auth.signOut()} style={{
         backgroundColor: "#000",
         color : '#fff',

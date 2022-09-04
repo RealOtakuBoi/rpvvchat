@@ -13,6 +13,7 @@ function App() {
 
   return (
     <div className="App">
+        <h1 style={{textAlign : 'center'}}>RPVV Chat</h1>
       {user ? <Chat/> : <SignIn/>}
     </div>
   );

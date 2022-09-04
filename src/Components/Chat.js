@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { db } from '../Firebase'
 import SignOut from './SignOut'
+import SendingMessages from './SendingMessages'
 
 function Chat() {
 
@@ -19,6 +20,8 @@ function Chat() {
                 <p>{text}</p>
             </div>
         ))}
+
+        <SendingMessages />
     </div>
   )
 }
